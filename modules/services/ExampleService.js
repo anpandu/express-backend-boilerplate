@@ -3,8 +3,8 @@ const CONFIG = require('../config')
 
 var ExampleService = function () {}
 
-ExampleService.prototype.method1 = (first_argument) => {
-  return 'method1'
+ExampleService.prototype.method1 = (arg) => {
+  return arg
 }
 
 module.exports = new ExampleService()
