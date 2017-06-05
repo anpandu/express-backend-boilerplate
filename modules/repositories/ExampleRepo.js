@@ -7,7 +7,7 @@ var ExampleRepo = function () {
 
   this.DB_HOST = CONFIG.db.host
   this.DB_PORT = CONFIG.db.port
-  this.DB_NAME = CONFIG.db.db
+  this.DB_NAME = CONFIG.db.name
   this.DB_USER = CONFIG.db.user
   this.DB_PASS = CONFIG.db.pass
 
